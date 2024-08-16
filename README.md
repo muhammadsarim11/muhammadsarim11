@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=muhammadsarim11" alt="muhammadsarim11" /></a> </p>
 
-- 🔭 I’m currently working on **Recipe Web Application**
+- 🔭 I’m currently working on **frontend projects**
 
 - 🌱 I’m currently learning **Reactjs**
 
@@ -13,11 +13,9 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/muhammadsarim11](https://github.com/muhammadsarim11)
 
-- 💬 Ask me about **JavaScript, gsap.js, Locomotive.js**
+- 💬 Ask me about **JavaScript, gsap.js, Locomotive.js, tailwind, node,**
 
 - 📫 How to reach me **sarimkhan13579@gmail.com**
-
-- ⚡ Fun fact **I think I am Soldier**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
