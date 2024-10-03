@@ -13,7 +13,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/muhammadsarim11](https://github.com/muhammadsarim11)
 
-- 💬 Ask me about **JavaScript, gsap.js, Locomotive.js, tailwind, node,**
+- 💬 Ask me about **C++,JavaScript,gsap.js,React.js, tailwind, node,**
 
 - 📫 How to reach me **sarimkhan13579@gmail.com**
 
