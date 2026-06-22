@@ -77,7 +77,7 @@ Full Stack Developer | MERN Stack | SaaS & AI-Driven Systems
 ## 📫 Let’s Connect
 
 📩 Email: [sarimkhan13579@gmail.com](mailto:sarimkhan13579@gmail.com)  
-💼 LinkedIn: [muhammad-sarim-3a70532a9](https://linkedin.com/in/muhammad-sarim-3a70532a9)  
+💼 LinkedIn: [muhammad-sarim-khan](https://www.linkedin.com/in/muhammad-sarim-khan-dev/)  
 📸 Instagram: [sarim.k](https://instagram.com/sarim.k)
 
 ---
