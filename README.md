@@ -5,7 +5,7 @@ A software engineer and technical instructor specializing in the MERN stack and 
 
 ## 🧠 Core Competencies & Tech Stack
 
-* **Languages:** JavaScript (ES6+), TypeScript, C++, Java
+* **Languages:** JavaScript (ES6+), TypeScript
 * **Frontend Ecosystem:** React.js, Next.js (App Router), Tailwind CSS, Framer Motion, GSAP
 * **Backend & API Design:** Node.js, Express.js, RESTful APIs, Middleware Architecture
 * **Databases & ORMs:** PostgreSQL (Neon DB), MongoDB, Prisma ORM
