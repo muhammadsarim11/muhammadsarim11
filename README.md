@@ -1,107 +1,52 @@
-<h1 align="center">Hey there 👋, I'm Muhammad Sarim</h1>
-<h3 align="center">
-Full Stack Developer | MERN Stack | SaaS & AI-Driven Systems
-</h3>
+# Muhammad Sarim Khan
+**Full-Stack Software Engineer | Technical Instructor**
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=muhammadsarim11&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+A software engineer and technical instructor specializing in the MERN stack and modern system architecture. I focus on designing scalable backend systems, implementing asynchronous workflows, and integrating AI models into practical, real-world SaaS applications. As an instructor, I am dedicated to teaching web development fundamentals while continuously refining my own engineering practices toward production-grade standards.
 
----
+## 🧠 Core Competencies & Tech Stack
 
-## 🚀 What I’m Currently Focused On
-
-- Building **production-grade SaaS platforms** with real users in mind  
-- Designing **scalable backend architectures** (Auth, Queues, DBs, APIs)  
-- Working with **AI integrations** for real-world use cases  
-- Teaching & mentoring students while sharpening my own fundamentals  
+* **Languages:** JavaScript (ES6+), TypeScript, C++, Java
+* **Frontend Ecosystem:** React.js, Next.js (App Router), Tailwind CSS, Framer Motion, GSAP
+* **Backend & API Design:** Node.js, Express.js, RESTful APIs, Middleware Architecture
+* **Databases & ORMs:** PostgreSQL (Neon DB), MongoDB, Prisma ORM
+* **Caching & Asynchronous Processing:** Redis (Redis Cloud), BullMQ
+* **Authentication & Security:** JWT (Secure Cookies), Refresh Tokens, OTP, Role-Based Access Control (RBAC)
+* **AI Integration:** Google Gemini 1.5 Flash (LangChain), Llama 3 (Groq API), Background Task Processing
+* **Infrastructure & Tooling:** Monorepo (TurboRepo), Vercel, Render, Git/GitHub, Cloudinary
 
 ---
 
-## 🧠 Core Expertise
+## 🏗️ Featured Projects
 
-### 🌐 Frontend
-- React.js, Next.js (App Router)
-- Tailwind CSS
-- Framer Motion, GSAP
-- Responsive UI & UX Design
-- Component-driven architecture
+### CodeWise | AI-Powered Code Documentation & Analysis SaaS
+An enterprise-grade analysis tool designed to evaluate code quality, automate documentation, and generate comprehensive technical reports. 
+* **Architecture:** Implemented a scalable Node.js/Express backend utilizing a monorepo structure.
+* **Async Processing:** Engineered a robust background processing system using Redis and BullMQ to handle heavy AI model generations without blocking the main event loop.
+* **Security:** Secured the application with stateless JWT authentication and HTTP-only cookies.
+* **Features:** Automated code review generation, PDF report exporting, and seamless AI chat integration tailored for developers.
 
-### 🔙 Backend
-- Node.js, Express.js
-- REST APIs & Middleware Design
-- Authentication (JWT, Refresh Tokens, OTP)
-- Role-based Access Control
-- File handling & PDF generation
-
-### 🗄 Databases & Caching
-- PostgreSQL (Prisma ORM)
-- MongoDB
-- Redis (Queues & Caching)
-
-### ⚙️ System & DevOps
-- Monorepo Architecture (TurboRepo)
-- Redis Queues (BullMQ)
-- Async Job Processing
-- Environment-based deployments
-- Vercel, Render, Supabase, Neon
-
-### 🤖 AI & Advanced Work
-- Google Gemini AI Integration
-- Background AI task processing
-- Performance-aware system design
+### EdSync | Educational Synchronization & Management Platform
+A comprehensive B2B educational software platform designed to bridge the gap between instructors, students, and administrative workflows.
+* **System Design:** Built with a multi-tenant database architecture ensuring data isolation and high performance for institutional clients.
+* **Data Management:** Developed robust schemas to handle complex relational data, including batch scheduling, curriculum tracking, and student performance metrics.
+* **UI/UX:** Delivered a highly responsive, component-driven frontend using Next.js and Tailwind CSS, focusing on accessibility and seamless user experience for diverse educational stakeholders.
 
 ---
 
-## 🧰 Tech Stack Summary
+## 🎯 Current Focus
 
-> **Frontend:** React.js, Next.js, Tailwind CSS, Framer Motion, GSAP  
-> **Backend:** Node.js, Express.js  
-> **Databases:** PostgreSQL, MongoDB, Redis  
-> **Languages:** JavaScript, C++, Java  
-> **Tools:** Git, GitHub, Prisma, VS Code, Postman  
+* **System Architecture:** Building SaaS applications to master scalability, clean code practices, and vendor-agnostic cloud deployments.
+* **Technical Instruction:** Managing student batches, creating structured MERN stack lesson plans, and delivering hands-on coding lectures. 
+* **Continuous Integration:** Transitioning projects into structured monorepos while optimizing continuous deployment pipelines.
 
 ---
 
-## 🏗️ Notable Work
+## 📫 Let's Connect
 
-- **CodeWise** – AI-Powered Code Analysis SaaS  
-  - Monorepo architecture  
-  - Redis queue-based AI processing  
-  - JWT auth with secure cookies  
-  - PDF export & shareable reports  
+* **Email:** [sarimkhan13579@gmail.com](mailto:sarimkhan13579@gmail.com)
+* **LinkedIn:** [muhammad-sarim-khan](https://www.linkedin.com/in/muhammad-sarim-khan/)
 
 
----
-
-## 📫 Let’s Connect
-
-📩 Email: [sarimkhan13579@gmail.com](mailto:sarimkhan13579@gmail.com)  
-💼 LinkedIn: [muhammad-sarim-khan](https://www.linkedin.com/in/muhammad-sarim-khan-dev/)  
-📸 Instagram: [sarim.k](https://instagram.com/sarim.k)
-
----
-
-## 📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muhammadsarim11&show_icons=true&theme=tokyonight" />
-</p>
-
-## 📊 Most Used Languages
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadsarim11&layout=compact&theme=tokyonight" />
-</p>
-
-## 🔥 GitHub Streak
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammadsarim11&theme=tokyonight" />
-</p>
-
-## 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=muhammadsarim11&theme=tokyonight&row=1&column=6" />
-</p>
-
----
-
-✨ *I don’t just build apps — I design systems that scale, explain themselves, and solve real problems.*
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=muhammadsarim11&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadsarim11&layout=compact&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=muhammadsarim11&theme=radical)
