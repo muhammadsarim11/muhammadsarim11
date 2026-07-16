@@ -46,6 +46,7 @@ A comprehensive B2B educational software platform designed to bridge the gap bet
 * **Email:** [sarimkhan13579@gmail.com](mailto:sarimkhan13579@gmail.com)
 * **LinkedIn:** [muhammad-sarim-khan](https://www.linkedin.com/in/muhammad-sarim-khan/)
 
+### GitHub Analytics
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=muhammadsarim11&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadsarim11&layout=compact&theme=radical)
