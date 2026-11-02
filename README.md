@@ -9,7 +9,7 @@
 <br/>
 
 <a href="https://builtbysarim.netlify.app"><img src="https://img.shields.io/badge/PORTFOLIO-0D0D0D?style=for-the-badge&logo=googlechrome&logoColor=C9A24B&labelColor=0D0D0D&color=C9A24B" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/muhammad-sarim-khan/"><img src="https://img.shields.io/badge/LINKEDIN-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=C9A24B&labelColor=0D0D0D&color=C9A24B" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/muhammad-sarim-khan-dev/"><img src="https://img.shields.io/badge/LINKEDIN-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=C9A24B&labelColor=0D0D0D&color=C9A24B" alt="LinkedIn" /></a>
 <a href="mailto:sarimkhan13579@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D0D0D?style=for-the-badge&logo=gmail&logoColor=C9A24B&labelColor=0D0D0D&color=C9A24B" alt="Email" /></a>
 
 </div>
