@@ -66,9 +66,3 @@ I also teach the MERN stack to developers in Pakistan, run a software agency, an
 - Building business software for clients at **[Vertexa Solutions](https://vertexasolutions.vercel.app)**
 - Teaching MERN batches with a curriculum I designed
 - Open to **senior remote engineering roles**: [let's talk](mailto:sarimkhan13579@gmail.com)
-
-<br/>
-
-<p align="center">
-  <img width="100%" src="https://streak-stats.demolab.com?user=muhammadsarim11&background=0B0B0C&border=34312A&stroke=34312A&ring=D4AF5A&fire=D4AF5A&currStreakNum=EFE8D6&currStreakLabel=D4AF5A&sideNums=EFE8D6&sideLabels=928C7B&dates=928C7B" alt="GitHub contribution streak for muhammadsarim11" />
-</p>
