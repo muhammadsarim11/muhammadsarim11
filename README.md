@@ -1,164 +1,74 @@
-<div align="center">
+<p align="center">
+  <a href="https://builtbysarim.netlify.app">
+    <img src="assets/hero.svg" width="100%" alt="Muhammad Sarim Khan. Full-stack engineer, instructor and agency founder. Builds multi-tenant SaaS, async pipelines and real-time systems." />
+  </a>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D0D0D&height=210&section=header&text=MUHAMMAD%20SARIM%20KHAN&fontSize=42&fontColor=C9A24B&fontAlignY=42&desc=FULL-STACK%20ENGINEER%20%C2%B7%20SYSTEM%20ARCHITECT%20%C2%B7%20TECHNICAL%20INSTRUCTOR&descSize=14&descColor=D9D4C5&descAlignY=64&animation=fadeIn" width="100%" alt="Muhammad Sarim Khan" />
+<p align="center">
+  <a href="https://builtbysarim.netlify.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/muhammad-sarim-khan-dev/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://vertexasolutions.vercel.app"><b>Vertexa Solutions</b></a> &nbsp;·&nbsp;
+  <a href="mailto:sarimkhan13579@gmail.com"><b>Email</b></a>
+</p>
 
-<a href="https://github.com/muhammadsarim11">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=3200&pause=1200&color=C9A24B&center=true&vCenter=true&width=720&height=40&lines=Designing+scalable+multi-tenant+SaaS+architectures;Async+pipelines+%C2%B7+Queues+%C2%B7+Real-time+systems;Production-grade+engineering%2C+built+to+last" alt="Typing SVG" />
+<br/>
+
+I build SaaS backends and the products on top of them. Most of my work comes down to two questions: **whose data is this**, and **what happens when this takes 30 seconds?** The answers show up as tenant boundaries, queues and workers.
+
+I also teach the MERN stack to developers in Pakistan, run a software agency, and serve as a Microsoft Student Ambassador. Teaching keeps my explanations honest. Client work keeps my estimates honest.
+
+<br/>
+
+## Two systems worth reading
+
+<a href="https://github.com/muhammadsarim11/codewise">
+  <img src="assets/codewise.svg" width="100%" alt="CodeWise architecture. A Next.js client with a Monaco editor calls an Express API, which queues jobs in Redis and BullMQ. A separate worker calls Gemini and writes results to PostgreSQL through Prisma." />
 </a>
 
-<br/>
+**[CodeWise](https://github.com/muhammadsarim11/codewise)** explains code line by line, with complexity analysis, refactoring suggestions, shareable reports and PDF export.
 
-<a href="https://builtbysarim.netlify.app"><img src="https://img.shields.io/badge/PORTFOLIO-0D0D0D?style=for-the-badge&logo=googlechrome&logoColor=C9A24B&labelColor=0D0D0D&color=C9A24B" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/muhammad-sarim-khan-dev/"><img src="https://img.shields.io/badge/LINKEDIN-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=C9A24B&labelColor=0D0D0D&color=C9A24B" alt="LinkedIn" /></a>
-<a href="mailto:sarimkhan13579@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D0D0D?style=for-the-badge&logo=gmail&logoColor=C9A24B&labelColor=0D0D0D&color=C9A24B" alt="Email" /></a>
-
-</div>
+- **The hard part:** an AI call takes seconds. Holding an HTTP request open for it wastes capacity and feels broken.
+- **The decision:** the API enqueues and returns. A separate worker process does the slow work.
 
 <br/>
 
-## ◆ Profile
+<img src="assets/edsync.svg" width="100%" alt="EdSync architecture. Institutes reach an Express API that applies JWT auth, role checks and organizationId scoping, then MongoDB, a BullMQ email queue with a worker, and Socket.io chat." />
 
-Full-stack software engineer and technical instructor specializing in the **MERN stack** and **modern system architecture**. I design scalable backends, build asynchronous workflows, and integrate AI models into real-world SaaS products. As an instructor, I teach web development fundamentals while holding my own work to production-grade standards.
+**EdSync** is a B2B LMS where each institute is an isolated tenant, with cohorts, curriculum, assignments, grading and live chat.
 
-<table>
-  <tr>
-    <td width="25%" align="center"><b>Multi-Tenant</b><br/><sub>Strict data isolation<br/>&amp; RBAC</sub></td>
-    <td width="25%" align="center"><b>Async-First</b><br/><sub>Queues &amp; workers,<br/>never a blocked event loop</sub></td>
-    <td width="25%" align="center"><b>Security-First</b><br/><sub>JWT, refresh tokens,<br/>HTTP-only cookies</sub></td>
-    <td width="25%" align="center"><b>Vendor-Agnostic</b><br/><sub>Portable, cost-aware<br/>cloud design</sub></td>
-  </tr>
-</table>
+- **The hard part:** one missed filter in a shared database leaks a whole institute's data.
+- **The decision:** tenant identity travels in the token, every scoped query is keyed on `organizationId`, and cross-tenant requests get a 404, so the API never confirms that another tenant's data exists.
+- **The proof:** 100+ integration tests run against a real MongoDB in CI.
 
----
+<br/>
 
-## ◆ Technical Arsenal
+## What I work with
 
-<table>
-  <tr>
-    <td width="22%"><b>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/JavaScript-0D0D0D?style=flat-square&logo=javascript&logoColor=C9A24B" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/TypeScript-0D0D0D?style=flat-square&logo=typescript&logoColor=C9A24B" alt="TypeScript" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/React-0D0D0D?style=flat-square&logo=react&logoColor=C9A24B" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js-0D0D0D?style=flat-square&logo=nextdotjs&logoColor=C9A24B" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-0D0D0D?style=flat-square&logo=tailwindcss&logoColor=C9A24B" alt="Tailwind CSS" />
-      <img src="https://img.shields.io/badge/Framer_Motion-0D0D0D?style=flat-square&logo=framer&logoColor=C9A24B" alt="Framer Motion" />
-      <img src="https://img.shields.io/badge/GSAP-0D0D0D?style=flat-square&logoColor=C9A24B" alt="GSAP" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Backend &amp; APIs</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Node.js-0D0D0D?style=flat-square&logo=nodedotjs&logoColor=C9A24B" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express-0D0D0D?style=flat-square&logo=express&logoColor=C9A24B" alt="Express" />
-      <img src="https://img.shields.io/badge/REST_APIs-0D0D0D?style=flat-square&logoColor=C9A24B" alt="REST APIs" />
-      <img src="https://img.shields.io/badge/Socket.io-0D0D0D?style=flat-square&logo=socketdotio&logoColor=C9A24B" alt="Socket.io" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Data</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PostgreSQL-0D0D0D?style=flat-square&logo=postgresql&logoColor=C9A24B" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/MongoDB-0D0D0D?style=flat-square&logo=mongodb&logoColor=C9A24B" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Prisma-0D0D0D?style=flat-square&logo=prisma&logoColor=C9A24B" alt="Prisma" />
-      <img src="https://img.shields.io/badge/Redis-0D0D0D?style=flat-square&logo=redis&logoColor=C9A24B" alt="Redis" />
-      <img src="https://img.shields.io/badge/BullMQ-0D0D0D?style=flat-square&logoColor=C9A24B" alt="BullMQ" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Auth &amp; Security</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/JWT-0D0D0D?style=flat-square&logo=jsonwebtokens&logoColor=C9A24B" alt="JWT" />
-      <img src="https://img.shields.io/badge/Refresh_Tokens-0D0D0D?style=flat-square&logoColor=C9A24B" alt="Refresh Tokens" />
-      <img src="https://img.shields.io/badge/OTP-0D0D0D?style=flat-square&logoColor=C9A24B" alt="OTP" />
-      <img src="https://img.shields.io/badge/RBAC-0D0D0D?style=flat-square&logoColor=C9A24B" alt="RBAC" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI Integration</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Gemini_1.5_Flash-0D0D0D?style=flat-square&logo=googlegemini&logoColor=C9A24B" alt="Gemini" />
-      <img src="https://img.shields.io/badge/LangChain-0D0D0D?style=flat-square&logo=langchain&logoColor=C9A24B" alt="LangChain" />
-      <img src="https://img.shields.io/badge/Llama_3_%C2%B7_Groq-0D0D0D?style=flat-square&logoColor=C9A24B" alt="Llama 3 via Groq" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Infra &amp; Tooling</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Turborepo-0D0D0D?style=flat-square&logo=turborepo&logoColor=C9A24B" alt="Turborepo" />
-      <img src="https://img.shields.io/badge/Vercel-0D0D0D?style=flat-square&logo=vercel&logoColor=C9A24B" alt="Vercel" />
-      <img src="https://img.shields.io/badge/Render-0D0D0D?style=flat-square&logo=render&logoColor=C9A24B" alt="Render" />
-      <img src="https://img.shields.io/badge/Cloudinary-0D0D0D?style=flat-square&logo=cloudinary&logoColor=C9A24B" alt="Cloudinary" />
-      <img src="https://img.shields.io/badge/Git-0D0D0D?style=flat-square&logo=git&logoColor=C9A24B" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-0D0D0D?style=flat-square&logo=github&logoColor=C9A24B" alt="GitHub" />
-    </td>
-  </tr>
-</table>
+<img src="assets/stack.svg" width="100%" alt="Stack. Interface: TypeScript, JavaScript, React, Next.js, Tailwind, Expo. Services: Node.js, Express, Socket.io, JWT. Data and async: MongoDB, PostgreSQL, Prisma, Redis, BullMQ. AI: Gemini, LangChain. Delivery: Docker, GitHub Actions, Turborepo, Vercel, Render, Cloudinary." />
 
----
+<br/>
 
-## ◆ Selected Work
+## How I build
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>CodeWise</h3>
-      <sub><b>AI-POWERED CODE DOCUMENTATION &amp; ANALYSIS SaaS</b></sub>
-      <p>An enterprise-grade tool that evaluates code quality, automates documentation, and generates comprehensive technical reports.</p>
-      <ul>
-        <li><b>Architecture:</b> Node.js/Express backend in a monorepo structure</li>
-        <li><b>Async processing:</b> Redis + BullMQ keep heavy AI generations off the main event loop</li>
-        <li><b>Security:</b> Stateless JWT auth with HTTP-only cookies</li>
-        <li><b>Features:</b> Automated code reviews, PDF report export, AI chat for developers</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>EdSync</h3>
-      <sub><b>EDUCATIONAL SYNCHRONIZATION &amp; MANAGEMENT PLATFORM</b></sub>
-      <p>A B2B platform that connects instructors, students, and administrators across batches, curriculum, and live classes.</p>
-      <ul>
-        <li><b>System design:</b> Multi-tenant architecture with strict data isolation</li>
-        <li><b>Data modeling:</b> Relational schemas for batch scheduling, curriculum tracking, and performance metrics</li>
-        <li><b>Frontend:</b> Component-driven Next.js and Tailwind UI, built for accessibility</li>
-        <li><b>Real-time:</b> Socket.io + Redis Pub/Sub for live chat, polls, and Q&amp;A</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-## ◆ Currently
-
-| | |
+| Principle | In practice |
 |:--|:--|
-| **Architecture** | Building SaaS products to master scalability, clean code, and vendor-agnostic deployment |
-| **Instruction** | Teaching MERN batches with structured curriculum and hands-on lectures |
-| **Delivery** | Moving projects into monorepos and tightening CI/CD pipelines |
-| **Agency** | Building client-facing products at **Vertexa Solutions** |
-
----
-
-## ◆ GitHub Analytics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=muhammadsarim11&show_icons=true&hide_border=false&border_color=2A2A2A&bg_color=0D0D0D&title_color=C9A24B&icon_color=C9A24B&text_color=D9D4C5&ring_color=C9A24B&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadsarim11&layout=compact&hide_border=false&border_color=2A2A2A&bg_color=0D0D0D&title_color=C9A24B&text_color=D9D4C5" alt="Top Languages" />
-
-<img width="92%" src="https://streak-stats.demolab.com?user=muhammadsarim11&background=0D0D0D&border=2A2A2A&stroke=2A2A2A&ring=C9A24B&fire=C9A24B&currStreakNum=F5E6B8&currStreakLabel=C9A24B&sideNums=F5E6B8&sideLabels=D9D4C5&dates=8A8575" alt="GitHub Streak" />
-
-</div>
+| **Isolate first** | Tenant scope is designed into the schema and indexes, not added to queries later |
+| **Keep requests short** | Anything slow goes to a queue, so the event loop stays free |
+| **One way to fail** | Async errors flow to one global handler instead of scattered `try/catch` |
+| **Test against the real thing** | Integration tests hit a real database, because mocks don't enforce a unique index |
+| **Stay portable** | Open tools and free tiers first, with no vendor I can't walk away from |
 
 <br/>
 
-<div align="center">
+## Right now
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D0D0D&height=90&section=footer&text=Let%27s%20build%20something%20that%20lasts.&fontSize=18&fontColor=C9A24B&fontAlignY=45" width="100%" alt="Footer" />
+- Taking **EdSync** from backend to product, with a Next.js client and a React Native app
+- Building business software for clients at **[Vertexa Solutions](https://vertexasolutions.vercel.app)**
+- Teaching MERN batches with a curriculum I designed
+- Open to **senior remote engineering roles**: [let's talk](mailto:sarimkhan13579@gmail.com)
 
-</div>
+<br/>
+
+<p align="center">
+  <img width="100%" src="https://streak-stats.demolab.com?user=muhammadsarim11&background=0B0B0C&border=34312A&stroke=34312A&ring=D4AF5A&fire=D4AF5A&currStreakNum=EFE8D6&currStreakLabel=D4AF5A&sideNums=EFE8D6&sideLabels=928C7B&dates=928C7B" alt="GitHub contribution streak for muhammadsarim11" />
+</p>
